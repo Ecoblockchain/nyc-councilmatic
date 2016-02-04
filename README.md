@@ -64,6 +64,7 @@ python manage.py loaddata
 ## Running NYC Councilmatic locally
 
 ``` bash
+python manage.py collectstatic
 python manage.py runserver
 ```
 
