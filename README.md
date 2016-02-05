@@ -16,7 +16,7 @@ We recommend using [virtualenv](http://virtualenv.readthedocs.org/en/latest/virt
 Once you have virtualenvwrapper set up,
 
 ```bash
-mkvirtualenv nyc-councilmatic
+mkvirtualenv nyc-councilmatic --python=`which python3`
 git clone https://github.com/datamade/nyc-councilmatic.git
 cd nyc-councilmatic
 pip install -r requirements.txt
